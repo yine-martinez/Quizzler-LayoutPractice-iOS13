@@ -59,6 +59,13 @@
                                 <color key="progressTintColor" red="1" green="0.45854175089999999" blue="0.6605013609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="exmaple " textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCg-Gf-IfH">
+                                <rect key="frame" x="163" y="44" width="89" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.97624593599999998" green="0.98922509199999997" blue="0.98780199660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.14509803921568626" green="0.17254901960784313" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
@@ -67,6 +74,7 @@
                         <outlet property="falseButton" destination="tbn-vQ-GyC" id="Yl3-F9-VrA"/>
                         <outlet property="progressBar" destination="TXm-qh-7Xg" id="fEi-zx-fId"/>
                         <outlet property="questionLabel" destination="rSI-li-mhO" id="DrD-tJ-8Ty"/>
+                        <outlet property="scoreLabel" destination="sCg-Gf-IfH" id="EVa-xf-fNn"/>
                         <outlet property="trueButton" destination="oVw-Hl-IRe" id="rBT-sd-zId"/>
                     </connections>
                 </viewController>
